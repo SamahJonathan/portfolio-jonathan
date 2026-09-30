@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 
 export default function About() {
   return (
-    <section className="py-20 px-4">
-      <div className="max-w-4xl mx-auto">
+    <section className="py-32 px-6">
+      <div className="max-w-5xl mx-auto">
         <motion.h2
-          className="text-4xl font-bold mb-12 text-center"
+          className="text-5xl font-bold mb-16 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
@@ -14,7 +14,7 @@ export default function About() {
         </motion.h2>
 
         <motion.div
-          className="space-y-6 text-lg text-slate-300"
+          className="space-y-8 text-xl text-slate-300 leading-relaxed"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}

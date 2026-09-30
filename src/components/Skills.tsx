@@ -29,10 +29,10 @@ const skillCategories = [
 
 export default function Skills() {
   return (
-    <section className="py-20 px-4 bg-slate-800/30">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-32 px-6 bg-slate-800/30">
+      <div className="max-w-7xl mx-auto">
         <motion.h2
-          className="text-4xl font-bold mb-16 text-center"
+          className="text-5xl font-bold mb-20 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
@@ -40,7 +40,7 @@ export default function Skills() {
           Stack Técnico
         </motion.h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {skillCategories.map((category, i) => (
             <motion.div
               key={i}

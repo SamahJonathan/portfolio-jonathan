@@ -3,15 +3,15 @@ import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function Contact() {
   return (
-    <section className="py-20 px-4 bg-slate-800/30">
+    <section className="py-32 px-6 bg-slate-800/30">
       <motion.div
-        className="max-w-2xl mx-auto text-center"
+        className="max-w-3xl mx-auto text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="text-4xl font-bold mb-6">Conectemos</h2>
-        <p className="text-slate-300 mb-12 text-lg">
+        <h2 className="text-5xl font-bold mb-8">Conectemos</h2>
+        <p className="text-slate-300 mb-16 text-xl leading-relaxed">
           Estoy disponible para proyectos de data engineering, consultoría e inquietudes técnicas.
         </p>
 

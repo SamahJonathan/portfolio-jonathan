@@ -34,9 +34,9 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 px-4 max-w-6xl mx-auto">
+    <section id="projects" className="py-32 px-6 max-w-7xl mx-auto">
       <motion.h2
-        className="text-4xl font-bold mb-16 text-center"
+        className="text-5xl font-bold mb-20 text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
@@ -44,7 +44,7 @@ export default function Projects() {
         Proyectos Destacados
       </motion.h2>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-2 gap-10">
         {projects.map((project, i) => (
           <motion.a
             key={i}
