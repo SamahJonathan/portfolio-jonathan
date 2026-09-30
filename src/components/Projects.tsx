@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ExternalLinkIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
+import { ArrowTopRightOnSquareIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 
 const projects = [
   {
@@ -62,7 +62,7 @@ export default function Projects() {
             <div className="relative bg-slate-800/50 border border-slate-700 rounded-xl p-6 hover:border-slate-600 transition">
               <div className="flex items-start justify-between mb-4">
                 <h3 className="text-xl font-bold">{project.title}</h3>
-                <ExternalLinkIcon className="w-5 h-5 text-slate-400" />
+                <ArrowTopRightOnSquareIcon className="w-5 h-5 text-slate-400" />
               </div>
 
               <p className="text-slate-300 mb-4">{project.description}</p>
